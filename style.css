@@ -1,0 +1,153 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Be Vietnam Pro";
+}
+
+body {
+  height: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+header img {
+  padding-right: 1rem;
+}
+
+header a {
+  color: black;
+  text-decoration-color: lightgray;
+  text-underline-offset: 0.25rem;
+}
+
+header a:hover {
+  text-decoration-color: black;
+  text-underline-offset: 0.1rem;
+}
+
+#logo-slogan {
+  display: flex;
+  font-weight: 200;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+}
+
+.hero > img {
+  max-width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+h1 {
+  position: absolute;
+  margin: 0;
+  justify-self: center;
+  align-self: center;
+  color: white;
+  font-family: Abyssinica SIL;
+  font-size: 3rem;
+}
+
+svg {
+  position: absolute;
+  width: 2rem;
+  justify-self: center;
+  top: 90%;
+  /* width: 2rem;
+  left: 50%;
+  bottom: 2rem;
+  transform: translateX(-50%); */
+}
+
+.grid-container > img {
+  max-width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: bottom center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.description {
+  display: grid;
+  gap: 1rem;
+  place-items: center;
+  place-content: center;
+  text-align: center;
+  padding: 8rem;
+}
+
+h2 {
+  font-family: Abyssinica SIL;
+  margin-block: 0;
+}
+
+.description p {
+  font-weight: 200;
+  line-height: 1.5rem;
+  margin-block: 1rem;
+}
+
+.description a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding-block: 0.5rem;
+  padding-inline: 1.4rem;
+}
+
+.description a:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 2rem;
+}
+
+footer img {
+  filter: invert(100%);
+}
+
+.legal {
+  display: flex;
+  justify-content: center;
+}
+
+.legal > a {
+  padding-inline: 1rem;
+  font-weight: 200;
+  font-size: 75%;
+  color: white;
+  text-decoration: none;
+}
+
+footer p {
+  margin: 0;
+}
+
+.footer-logo {
+  padding: 2rem;
+}
